@@ -158,6 +158,10 @@ main section {
     padding: 150px 0;
 }
 
+main section:nth-child(even) {
+    background-color: #F6F6F6;
+}
+
 main section .img-box.left {
     width: 70%;
 }
