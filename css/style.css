@@ -71,6 +71,10 @@ ul li a:hover {
     background-color: #36393F;
 }
 
+.img-right {
+    text-align: right;
+}
+
 /* ***** header ***** */
 
 header {
@@ -137,6 +141,10 @@ header nav li {
 
 /* ***** main ***** */
 
+main section {
+    padding: 150px 0;
+}
+
 main section .img-box.left {
     width: 70%;
 }
@@ -184,12 +192,12 @@ main section .img-desc p {
 } */
 
 .debug main section {
-    height: 800px;
-    background-color: lightgrey;
+    /* height: 800px;
+    background-color: lightgrey; */
     border: 1px solid black;
 }
 
-.debug main section .img-box {
+/* .debug main section .img-box {
     background-color: green;
     height: 400px;
 }
@@ -197,7 +205,7 @@ main section .img-desc p {
 .debug main section .img-desc {
     background-color: blue;
     height: 400px;
-}
+} */
 
 .debug footer {
     height: 200px;
