@@ -85,6 +85,23 @@ ul li a:hover {
     text-align: center;
 }
 
+/* ***** wave ***** */
+
+.wave {
+    height: 150px; 
+    overflow: hidden;
+}
+
+.wave svg {
+    height: 100%;
+    width: 100%;
+}
+
+.wave svg path {
+    stroke: none; 
+    fill: #F6F6F6;
+}
+
 /* ***** header ***** */
 
 header {
@@ -155,7 +172,7 @@ main section {
     padding: 150px 0;
 }
 
-main section:nth-child(even) {
+main section:nth-of-type(even) {
     background-color: #F6F6F6;
 }
 
