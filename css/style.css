@@ -32,9 +32,6 @@ ul {
 
 a {
     text-decoration: none;
-}
-
-ul li a {
     color: white;
 }
 
@@ -212,6 +209,10 @@ footer {
     background-color: #23272A;
 }
 
+.footer-top {
+    padding-top: 80px;
+}
+
 .footer-top section {
     width: 15%;
 }
@@ -227,7 +228,7 @@ footer {
 }
 
 .footer-top .language img {
-    height: 16px;
+    height: 14px;
     vertical-align: middle;
 }
 
@@ -241,9 +242,17 @@ footer {
 }
 
 .footer-top .social a {
-    color: white;
     font-size: 16px;
     margin-right: 20px;
+}
+
+.footer-top h5 {
+    color: #7289DA;
+    font-size: 14px;
+}
+
+.footer-top ul {
+    line-height: 2;
 }
 
 /* +++++ debug +++++ */
@@ -288,8 +297,8 @@ footer {
     height: 800px;
 }
 
-.debug footer section {
-    /* background-color: green; */
+/* .debug footer section {
+    background-color: green;
     height: 400px;
     border: 1px solid black;
-}
+} */
