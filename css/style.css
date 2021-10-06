@@ -71,8 +71,21 @@ ul li a:hover {
     background-color: #36393F;
 }
 
+.blue {
+    color: white;
+    background-color: #5865f2;
+}
+
+.blue:hover {
+    background-color: #7983F5;
+}
+
 .img-right {
     text-align: right;
+}
+
+.center {
+    text-align: center;
 }
 
 /* ***** header ***** */
@@ -160,10 +173,31 @@ main section .img-box img {
 main section .img-desc h2 {
     font-size: 45px;
     margin-bottom: 25px;
+    padding-top: 30px;
 }
 
 main section .img-desc p {
     line-height: 1.6;
+}
+
+main section .ready-down {
+    position: relative;
+}
+
+main section .ready-down h3 {
+    font-size: 26px;
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+main section .ready-down a {
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 /* ***** footer *****  */
@@ -191,11 +225,11 @@ main section .img-desc p {
     background-color: grey;
 } */
 
-.debug main section {
-    /* height: 800px;
-    background-color: lightgrey; */
+/* .debug main section {
+    height: 800px;
+    background-color: lightgrey;
     border: 1px solid black;
-}
+} */
 
 /* .debug main section .img-box {
     background-color: green;
