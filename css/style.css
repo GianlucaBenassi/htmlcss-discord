@@ -137,12 +137,25 @@ header nav li {
 
 /* ***** main ***** */
 
-main section .img.left {
-    width: 60%;
+main section .img-box.left {
+    width: 70%;
 }
 
 main section .img-desc.left {
-    width: 40%;
+    width: 30%;
+}
+
+main section .img-box img {
+    object-fit: cover;
+}
+
+main section .img-desc h2 {
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+main section .img-desc p {
+    line-height: 1.6;
 }
 
 /* ***** footer *****  */
@@ -176,7 +189,7 @@ main section .img-desc.left {
     border: 1px solid black;
 }
 
-.debug main section .img {
+.debug main section .img-box {
     background-color: green;
     height: 400px;
 }
