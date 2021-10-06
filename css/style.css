@@ -38,14 +38,27 @@ ul li a {
     color: white;
 }
 
+ul li a:hover {
+    text-decoration: underline;
+}
+
 .btn {
     padding: 10px 15px;
     border-radius: 2em;
 }
 
+.btn:hover {
+    transition: 0.3s;
+    box-shadow: 2px 11px 20px -3px rgba(0,0,0,0.4);
+}
+
 .white {
     color: black;
     background-color: white;
+}
+
+.white:hover {
+    color: #3161E0;
 }
 
 /* ***** header ***** */
