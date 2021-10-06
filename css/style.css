@@ -16,9 +16,29 @@ body {
     margin: 0 auto;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
 /* ***** header ***** */
 
 header {
+    height: 80px;
+}
+
+header .logo, #login {
+    width: 15%;
+    height: 80px;
+}
+
+header nav {
+    width: 70%;
     height: 80px;
 }
 
@@ -37,6 +57,13 @@ header {
 
 .debug header {
     background-color: red;
+}
+
+.debug header .logo,
+.debug header nav,
+.debug #login {
+    background-color: blue;
+    border: 1px solid black;
 }
 
 .debug #jumbobox {
